@@ -3,7 +3,7 @@ title: "Zenn.dev への投稿方法"
 emoji: "📑"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["zenn"]
-published: false
+published: true
 ---
 
 ## 画像をアップロードしたい時
