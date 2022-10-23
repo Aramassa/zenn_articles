@@ -16,6 +16,7 @@ published: false
 * Kubernetes External Secrets (Deprecated)
 * External Secrets Operator
 * Secret Storage CSI
+* Vault by HashiCorp
 
 参考記事
 [Kubernetes External Secrets が非推奨になるので External Secrets Operator と Secret Storage CSI を比較する](https://mixi-developers.mixi.co.jp/compare-eso-with-secret-csi-846ed8b1c9b)
