@@ -14,7 +14,7 @@ published: false
 
 * Sealed Secret
 * Kubernetes External Secrets (Deprecated)
-* External Secrets Operator
+* [External Secrets Operator](https://external-secrets.io/v0.6.0/)
 * Secret Storage CSI
 * Vault by HashiCorp
 
