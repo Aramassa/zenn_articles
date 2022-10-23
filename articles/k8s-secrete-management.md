@@ -13,7 +13,7 @@ published: false
 # 選択肢
 
 * Sealed Secret
-* Kubernetes External Secrets
+* Kubernetes External Secrets (Deprecated)
 * External Secrets Operator
 * Secret Storage CSI
 
