@@ -18,8 +18,10 @@ published: false
 * Secret Storage CSI
 * Vault by HashiCorp
 
-参考記事
+## 参考記事
 [Kubernetes External Secrets が非推奨になるので External Secrets Operator と Secret Storage CSI を比較する](https://mixi-developers.mixi.co.jp/compare-eso-with-secret-csi-846ed8b1c9b)
+
+こちらの記事によると、 Secret Storage CSI は ArgoCD など、サードパーティ製アプリの Secret　管理と相性が悪そうなので、External Secrets Operator が選択肢としては良さそう （2022/10時点）。
 
 
 ## External Secrets が非推奨
