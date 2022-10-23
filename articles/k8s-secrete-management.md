@@ -33,3 +33,19 @@ https://github.com/external-secrets/kubernetes-external-secrets
 
 とのこと。
 
+## External Secret Operator 導入の流れ
+
+* GCP側
+  * Project を作成
+  * Secret Manager に Secret を作成
+  * SAを作成し、SecretManager アクセスの権限を追加する
+  * 作成したSA の Credential JSON を取得する(k8s設定用)
+* k8s側
+  * Helm Chart で Cluster にインストールする
+  * GCP の SA アクセス用の [Secret を追加する]
+  * [SecretStore を追加する]
+  * [ExternalSecretを追加する]
+
+[Secret を追加する]: https://external-secrets.io/v0.6.0/provider/google-secrets-manager/#gcp-service-account-authentication
+[SecretStore を追加する]: https://external-secrets.io/v0.6.0/provider/google-secrets-manager/#update-secret-store
+[ExternalSecretを追加する]: https://external-secrets.io/v0.6.0/provider/google-secrets-manager/#creating-external-secret
