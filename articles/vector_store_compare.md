@@ -72,4 +72,14 @@ Pinecone は [Integration の面](https://docs.pinecone.io/docs/elastic)で Qdra
 [Pinecone]: https://www.pinecone.io/
 [Elasticsearch]: https://www.elastic.co/jp/elasticsearch/
 
+* What is a Vector Database
+  * https://www.pinecone.io/learn/vector-database/
+* Rust製のベクトルデータベースQdrantを試してみる
+  * https://dev.classmethod.jp/articles/qdrant-first-step/
+    * アーキテクチャなども書かれている
+
+---
+
+* VectorDB の `dimentions` とは?
+* pinecone の namespace とは？
 
